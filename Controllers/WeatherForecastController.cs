@@ -27,10 +27,11 @@ using (var context = new SchoolDBContext())
 */
 using (var context = new SchoolDBContext())
 {
-    var std = context.Students.First<Student>();
-    std.FirstName = "Steve";
+    var std = context.Students.Find(1);
+    std.FirstName = "Jesus";
     context.SaveChanges();
 }
+
 
 namespace TutorialEntityFrameWorkCore.Controllers
 {

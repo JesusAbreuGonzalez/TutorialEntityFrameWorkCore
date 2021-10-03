@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TutorialEntityFrameWorkCore.Models;
 /*
+//Agregar
 using (var context = new SchoolDBContext())
 {
     var std = new Student()
@@ -24,11 +25,25 @@ using (var context = new SchoolDBContext())
 
     context.SaveChanges();
 }
-*/
+
+//Modificar
 using (var context = new SchoolDBContext())
 {
     var std = context.Students.Find(1);
     std.FirstName = "Jesus";
+    context.SaveChanges();
+}
+
+*/
+
+using (var context = new SchoolDBContext())
+{
+    var std = context.Students.Find(0);
+    context.Students.Remove(std);
+
+    // or
+    // context.Remove<Student>(std);
+
     context.SaveChanges();
 }
 

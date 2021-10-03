@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TutorialEntityFrameWorkCore.Models;
-
+/*
 using (var context = new SchoolDBContext())
 {
     var std = new Student()
@@ -22,6 +22,13 @@ using (var context = new SchoolDBContext())
     // or
     // context.Add<Student>(std);
 
+    context.SaveChanges();
+}
+*/
+using (var context = new SchoolDBContext())
+{
+    var std = context.Students.First<Student>();
+    std.FirstName = "Steve";
     context.SaveChanges();
 }
 

@@ -4,6 +4,26 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TutorialEntityFrameWorkCore.Models;
+
+using (var context = new SchoolDBContext())
+{
+    var std = new Student()
+    {
+        StudentId = 1,
+        FirstName = "Bill",
+        LastName = "Gates",
+        DateOfBirth = DateTime.Now,
+        Height = (decimal?)1.84,
+        Weight = (decimal?)145
+    };
+    context.Students.Add(std);
+
+    // or
+    // context.Add<Student>(std);
+
+    context.SaveChanges();
+}
 
 namespace TutorialEntityFrameWorkCore.Controllers
 {
@@ -37,3 +57,4 @@ namespace TutorialEntityFrameWorkCore.Controllers
         }
     }
 }
+

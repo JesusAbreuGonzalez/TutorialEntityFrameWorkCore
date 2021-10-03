@@ -85,5 +85,6 @@ C:\Users\Jesus Abreu\source\repos\JesusAbreuGonzalez\TutorialEntityFrameWorkCore
 C:\Users\Jesus Abreu\source\repos\JesusAbreuGonzalez\TutorialEntityFrameWorkCore\TutorialEntityFrameWorkCore\obj\Debug\net5.0\ref\TutorialEntityFrameWorkCore.dll
 C:\Users\Jesus Abreu\source\repos\JesusAbreuGonzalez\TutorialEntityFrameWorkCore\TutorialEntityFrameWorkCore\obj\Debug\net5.0\TutorialEntityFrameWorkCore.pdb
 C:\Users\Jesus Abreu\source\repos\JesusAbreuGonzalez\TutorialEntityFrameWorkCore\TutorialEntityFrameWorkCore\obj\Debug\net5.0\TutorialEntityFrameWorkCore.genruntimeconfig.cache
-C:\Users\Jesus Abreu\source\repos\JesusAbreuGonzalez\TutorialEntityFrameWorkCore\TutorialEntityFrameWorkCore\bin\Debug\net5.0\TutorialEntityFrameWorkCore.StaticWebAssets.xml
-C:\Users\Jesus Abreu\source\repos\JesusAbreuGonzalez\TutorialEntityFrameWorkCore\TutorialEntityFrameWorkCore\obj\Debug\net5.0\refint\TutorialEntityFrameWorkCore.dll
+C:\Users\Jesus Abreu\source\repos\JesusAbreuGonzalez\TutorialEntityFrameWorkCore\TutorialEntityFrameWorkCore\bin\Debug\net5.0\ref\TutorialEntityFrameWorkCore.dll
+C:\Users\Jesus Abreu\source\repos\JesusAbreuGonzalez\TutorialEntityFrameWorkCore\TutorialEntityFrameWorkCore\obj\Debug\net5.0\staticwebassets\TutorialEntityFrameWorkCore.StaticWebAssets.xml
+C:\Users\Jesus Abreu\source\repos\JesusAbreuGonzalez\TutorialEntityFrameWorkCore\TutorialEntityFrameWorkCore\obj\Debug\net5.0\TutorialEntityFrameWorkCore.csproj.CopyComplete

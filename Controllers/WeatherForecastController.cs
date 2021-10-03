@@ -5,13 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TutorialEntityFrameWorkCore.Models;
-/*
+
 //Agregar
 using (var context = new SchoolDBContext())
 {
     var std = new Student()
     {
-        StudentId = 1,
         FirstName = "Bill",
         LastName = "Gates",
         DateOfBirth = DateTime.Now,
@@ -25,7 +24,7 @@ using (var context = new SchoolDBContext())
 
     context.SaveChanges();
 }
-
+/*
 //Modificar
 using (var context = new SchoolDBContext())
 {
@@ -34,8 +33,8 @@ using (var context = new SchoolDBContext())
     context.SaveChanges();
 }
 
-*/
 
+//Eliminar
 using (var context = new SchoolDBContext())
 {
     var std = context.Students.Find(0);
@@ -46,7 +45,7 @@ using (var context = new SchoolDBContext())
 
     context.SaveChanges();
 }
-
+*/
 
 namespace TutorialEntityFrameWorkCore.Controllers
 {

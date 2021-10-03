@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 #nullable disable
 
@@ -12,7 +13,7 @@ namespace TutorialEntityFrameWorkCore.Models
             StudentAddresses = new HashSet<StudentAddress>();
             StudentCourses = new HashSet<StudentCourse>();
         }
-
+        [Key]
         public int StudentId { get; set; }
         public int? GradeId { get; set; }
         public string FirstName { get; set; }
